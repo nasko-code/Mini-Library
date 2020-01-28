@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 0;
+    color: rgb(66, 66, 66)
+}
+
+header {
+    margin-bottom: 75px;
+}
+
+header h2 {
+    font-style: italic;
+}
+
+.gallery img {
+    width: 220px;
+    height:350px;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+
+.upload-button {
+    text-decoration: none;
+    background-color: rgb(0, 73, 0);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: rgb(5, 163, 76);
+    color: white;
+}
+
