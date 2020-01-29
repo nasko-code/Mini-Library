@@ -15,6 +15,8 @@
             <h2 class="heading">Upload Book</h2>
 
             <a class="home-button" href="index.php">Home</a>
+            <a class="upload-button" href="\books" target= "_blank" >Download Books</a>
+            <a class="upload-button" href="https://www.w3schools.com/" target= "_blank">W3Schools.com</a>
 
         </header>
    
