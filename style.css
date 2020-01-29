@@ -10,7 +10,7 @@ body {
 
 .heading {
     text-align: center;
-    margin: 0;
+    margin: 2;
     color: rgb(66, 66, 66)
 }
 
@@ -18,9 +18,6 @@ header {
     margin-bottom: 75px;
 }
 
-header h2 {
-    font-style: italic;
-}
 
 .gallery img {
     width: 220px;

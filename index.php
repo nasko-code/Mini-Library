@@ -9,18 +9,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Animal Gallery</title>
+    <title>Mini Library</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1 class="heading">Animal Gallery</h1>
-            <h2 class="heading">Cute animals</h2>
+            <h1 class="heading">Mini Library</h1>
+            <h2 class="heading">Last Added Books</h2>
         </header>
 
-        <a class="upload-button" href="upload.php">Upload Image</a>
+        <a class="upload-button" href="upload.php">Upload Book</a>
 
         <div class="gallery">
             
