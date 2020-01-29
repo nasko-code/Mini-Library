@@ -27,6 +27,7 @@ header h2 {
     height:350px;
     margin-right: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
    
 }
 
@@ -56,4 +57,26 @@ header h2 {
     border: none;
     cursor: pointer;
 
+}
+
+.home-button:hover {
+    background-color: rgb(5, 163, 76);
+    color: white;
+}
+
+.download-button{
+    text-decoration: none;
+    background-color: rgb(0, 73, 0);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.download-button:hover {
+    background-color: rgb(5, 163, 76);
+    color: white;
 }
