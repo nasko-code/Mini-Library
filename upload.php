@@ -17,20 +17,22 @@
             <a class="home-button" href="index.php">Home</a>
 
         </header>
-
+   
         <form action="postImage.php" method="post" enctype="multipart/form-data" class="upload-image-form">
+      
         
             <div>
 
-                <label>Upload Image: </label>
+                <label>Upload Cover: </label>
                 <input type="file" name="newImage">
                 </div>
+                <div> ---------------------- </div>
                 <div>
-                <label>Upload Cover : </label>
+                <label>Upload Book : </label>
                 <input type="file" name="newImage2">
 
             </div>
-        
+  
             <div>
                 <input type="submit" value="Upload" class="upload-button">
             </div>

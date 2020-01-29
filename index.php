@@ -19,8 +19,9 @@
             <h1 class="heading">Mini Library</h1>
             <h2 class="heading">Last Added Books</h2>
         </header>
-
+      
         <a class="upload-button" href="upload.php">Upload Book</a>
+        <a class="upload-button" href="\books">See All Books</a>
 
         <div class="gallery">
             
