@@ -21,13 +21,15 @@
         </header>
       
         <a class="upload-button" href="upload.php">Upload Book</a>
-        <a class="upload-button" href="\books">See All Books</a>
+        <a class="upload-button" href="\books" target= "_blank" >Download Books</a>
+        <a class="upload-button" href="https://www.w3schools.com/" target= "_blank">W3Schools.com</a>
 
         <div class="gallery">
             
             <?php
                 foreach ($imageNames as $imageName) {
                     echo "<img src=\"covers/$imageName\" alt=\"Gallery Image\">";
+                    
                 }
             ?>
         </div>
