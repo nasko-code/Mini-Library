@@ -17,6 +17,7 @@
 
         
         <form action="postImage.php" method="post" enctype="multipart/form-data" class="upload-image-form">
+        <form action="postImage2.php" method="post" enctype="multipart/form-data" class="upload-image-form">
         
 
         

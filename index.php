@@ -26,7 +26,7 @@
             
             <?php
                 foreach ($imageNames as $imageName) {
-                    echo "<img src=\"covers/$imageName\" alt=\"Gallery Image\">";
+                    echo "<img src=\"covers/$imageName\" alt=\"Cover Book\">";
                 }
             ?>
         </div>
