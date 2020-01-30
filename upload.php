@@ -26,12 +26,12 @@
             <div>
 
                 <label>Upload Cover: </label>
-                <input type="file" name="newImage">
+                <input type="file" name="cover">
                 </div>
                 <div> ---------------------- </div>
                 <div>
                 <label>Upload Book : </label>
-                <input type="file" name="newImage2">
+                <input type="file" name="book">
 
             </div>
   

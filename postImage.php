@@ -1,23 +1,18 @@
 <?php
- $tempName = $_FILES['newImage']['tmp_name'];
- $filePathName = 'covers/' . $_FILES['newImage']['name'];
+    $tempCover = $_FILES['cover']['tmp_name'];
+    $coverPathName = 'covers/' . $_FILES['newImage']['name'];
 
+    $tempBook = $_FILES['book']['tmp_name'];
+    $bookPathName = 'books/' . $_FILES['newImage2']['name'];
 
-
- $tempName2 = $_FILES['newImage2']['tmp_name'];
- $filePathName2 = 'books/' . $_FILES['newImage2']['name'];
-
-
- $success = move_uploaded_file($tempName, $filePathName);
-            move_uploaded_file($tempName2, $filePathName2);
+    $coverSuccess = move_uploaded_file($tempCover, $coverPathName);
+    $bookSuccess = move_uploaded_file($tempBook, $bookPathName);
             
-
- if ($success) {
-    header('Location: /index.php');
- }
- else {
-     echo 'Error with upload!';
- }
-
+    if ($coverSuccess && $bookSuccess) {
+        header('Location: /');
+    }
+    else {
+        echo 'Error with upload!';
+    }
 ?>
  
