@@ -1,6 +1,15 @@
 <?php 
-    $files = scandir('covers');
-    $imageNames = array_slice($files, 2);
+
+    session_start();
+
+    if (!isset($_SESSION['bookList'])) {
+        $_SESSION['bookList'] = array();
+    }
+   
+   // print_r($_SESSION);
+
+   //  $files = scandir('covers');
+   //  $imageNames = array_slice($files, 2);
 ?>
 
 <!DOCTYPE html>
@@ -27,9 +36,13 @@
         <div class="gallery">
             
             <?php
-                foreach ($imageNames as $imageName) {
-                    echo "<img src=\"covers/$imageName\" alt=\"Gallery Image\">";
-                    
+                foreach ($_SESSION['bookList'] as $book) {
+                    $bookCover = $book['cover'];
+                    $bookName = $book['name'];
+
+                   // echo "<img src=\"covers/$bookCover\" alt=\"Gallery Image\">";
+
+                   echo "<a href=\"books/$bookName\" download><img src=\"covers/$bookCover\" alt=\"Gallery Image\"></a>";
                 }
             ?>
         </div>
