@@ -44,7 +44,6 @@
 
                    echo "<a href=\"books/$bookName\" download><img src=\"covers/$bookCover\" alt=\"Gallery Image\"></a>";
                 }
-               */                
             ?>
         </div>
     </div>
