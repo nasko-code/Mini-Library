@@ -27,10 +27,14 @@
         <div class="gallery">
             
             <?php
-                foreach ($imageNames as $imageName) {
-                    echo "<img src=\"covers/$imageName\" alt=\"Gallery Image\">";
-                    
+                 foreach ($imageNames as $imageName) {
+                  echo "<img src=\"covers/$imageName\" alt=\"Gallery Image\">";
+                 }
+                 
+               /* foreach ($imageNames as $imageName) {
+                    echo "<a href=\"books/the_little_prince.pdf\" download><img src=\"covers/$imageName\" alt=\"Gallery Image\"></a>";
                 }
+               */                
             ?>
         </div>
     </div>
