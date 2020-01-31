@@ -1,5 +1,7 @@
 <?php
     session_start();
+
+    
     // $bookNameWithExtension = $_FILES['book']['name'];
     // $bookName = substr($bookNameWithExtension, 0, strpos($bookNameWithExtension, '.'));
 
